@@ -4,7 +4,7 @@ const m = s * 60;
 const h = m * 60;
 const d = h * 24;
 const w = d * 7;
-const y = d * 365.25;
+const y = d * 365;
 
 type Unit =
   | 'Years'
